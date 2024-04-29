@@ -3,7 +3,7 @@
 
 `git clone` Faz o download do projeto/pasta
 
-`gi
+`git add .` Faz alteração no projeto
 
 `git commit -m "mensagem"` Escreve o que foi feito na alteração
 

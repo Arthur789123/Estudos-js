@@ -42,9 +42,9 @@ const nome1 = "Arthur";
 
 // Exemplos pratico
 const nome2 = "Arthur";
-const idade2 = 13;
+const idade2 = 12;
 const flamenguista2 = false;
-// console.log(nome2, "que tem", idade2, "anos", "é flamenguista?", flamenguista2);
+ //console.log(nome2, "que tem", idade2, "anos", "é flamenguista?", flamenguista2);
 
 // Trabalhando agora com Objeto:
 const pessoa = {

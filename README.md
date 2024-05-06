@@ -12,8 +12,10 @@
 
 Checklist:
 
-* [ ]  Fazer mais quatro objetos em main.js
+* [X]  Fazer mais quatro objetos em main.js
 * [ ]  Conseguir me responder o que é um objeto
 * [ ]  Conseguir me responder como se acessa um objeto
 * [ ]  Conseguir me responder o que é uma lista/array
 * [ ]  Conseguir me responder como se acessa um elemento dentro do array
+
+

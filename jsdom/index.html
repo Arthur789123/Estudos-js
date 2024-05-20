@@ -8,21 +8,29 @@
 </head>
 
 <body>
-    <input id="nome" type="text">
-    <button id="botao">Adicionar</button>
-    <h2 id="resultado"></h2>
+    <!-- entrada -->
+    <input id="input-nome" type="text">
+    <!-- botão -->
+    <button id="btn-adicionar">Adicionar</button>
 
-
-
-
-
-
-
-
+    <!-- texto com o resultado -->
+    <h2 id="h2-resultado"></h2>
 
 
     <script>
-        
+        const inputNome = document.getElementById('input-nome');
+        const btnAdicionar = document.getElementById('btn-adicionar');
+        const h2Resultado = document.getElementById('h2-resultado');
+
+        // Eventos
+        // Todo elemento html pode ter EVENTO
+        // Vamos adicionar o evento de click ao botão
+        btnAdicionar.addEventListener('click', function () {
+            const nome = inputNome.value;
+            h2Resultado.textContent = nome;
+        });
+
+
     </script>
 </body>
 

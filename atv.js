@@ -1,9 +1,10 @@
 const time = "Cruzeiro"
 
 if (time == "Cruzeiro") {
-    else if ("Flamengo")
-    console.log ("Voce é cruzeirense")
     
+    console.log ("Voce é cruzeirense")
+}else if ("Flamengo"){
+
 }
 
 

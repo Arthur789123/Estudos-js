@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <input type="text" id="inputText">
+    <input type="number" id="inputNumber">
+    <input type="password" id="inputPassword">
+    <input type="email" id="inputEmail">
+    <input type="tel" id="inputTel">
+
+    <input type="button" id="inputButton" value="arthur">
+
+
+
+    <!-- Na última linha do body sempre vai ter a tag script-->
+    <script>
+        // é possível resgatar um elemento do HTML para o JAVASCRIPT
+        const inputButton = document.getElementById('inputButton');
+
+        inputButton.addEventListener('click', function () {
+            alert('Estou aqui!')
+        });
+
+
+    </script>
+</body>
+
+</html>

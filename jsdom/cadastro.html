@@ -18,5 +18,19 @@
           
         </form>
     </main>
+
+
+
+
+    <script>
+        const inputNome = document.getElementById('inputNome');
+        const btnCadastrar = document.getElementById('inputButton');
+
+        btnCadastrar.addEventListener('click', function () {
+            localStorage.setItem('LSnome', inputNome.value);
+        });
+
+
+    </script>
 </body>
 </html>

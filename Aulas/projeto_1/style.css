@@ -1,0 +1,24 @@
+body {
+    background-color: #ddd;
+}
+
+.personagem {
+    display: flex;
+    background-color: white;
+    width: 80%;
+}
+
+.img-personagem {
+    width: 320px;
+}
+
+.detalhes {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.nome {
+    font-size: 26px;
+    font-family: sans-serif;
+    font-weight: 500;
+}

@@ -2,10 +2,25 @@ body {
     background-color: #ddd;
 }
 
+.personagens {
+    display: flex;
+    gap: 10px;
+}
+
 .personagem {
     display: flex;
     background-color: white;
-    width: 80%;
+    border: 1.8px solid black;
+    border-radius: 2%;
+}
+
+.personagem-1 {
+    background-color: rgb(235, 229, 229);
+    border-radius: 4%;
+}
+
+.personagem-2 {
+    padding: 10px;
 }
 
 .img-personagem {
@@ -14,11 +29,33 @@ body {
 
 .detalhes {
     font-size: 20px;
-    font-family: sans-serif;
+    font-family: "Playwrite GB S", cursive;
 }
 
 .nome {
     font-size: 26px;
     font-family: sans-serif;
-    font-weight: 500;
+    font-weight: bold;
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    background-color: rgb(50, 123, 196);
+    color: white;
+    padding: 12px;
+    border-radius: 30px;
+    border: 1.4px solid rgb(2, 48, 128);
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+}
+
+.link:hover {
+    background-color: rgb(100, 153, 226);
+    zoom: 1.1;
 }

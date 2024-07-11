@@ -1,0 +1,17 @@
+
+.div-principal {
+    width: 100% ;
+    height: 600px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.div-secundaria {
+    background-color: red;
+    height: 300px;
+    width: 50%;
+  
+    
+}

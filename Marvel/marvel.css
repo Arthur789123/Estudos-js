@@ -1,0 +1,53 @@
+body {
+    background-color: #ddd;
+}
+
+.principal{
+display: flex;
+justify-content: center;
+gap: 10px;
+margin-top: 100px;
+}
+
+.personagem{
+ width: 350px;
+ height: 550px;
+ background-color: aliceblue;
+ border-radius: 5%;
+ text-align: center;
+
+.homem-aranha{
+ width: 325px;   
+ border-radius: 5%;
+ margin-top: 20px;
+}
+
+.homem-de-ferro{
+    width: 325px;
+    height: 243.41px;
+    margin-top: 20px;
+    border-radius: 5%;
+}
+
+.capitao-america{
+    width:325px ;
+    height:243.41px ;
+    border-radius: 5%;
+    margin-top: 20px;
+}
+
+.link{
+    height: 35px;
+    width: 80   px;
+     border-radius:40px;
+    border: 5px;
+    background-color: rgb(50, 123, 196) 
+    
+     
+}
+
+.link:hover{
+    background-color: rgb(118, 182, 238);
+    zoom: 1.1;
+} 
+}

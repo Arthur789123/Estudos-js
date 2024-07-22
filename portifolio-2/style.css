@@ -51,10 +51,10 @@ footer {
 }
 
 .div-imagem {
-background-color: white;
-border-radius: 10px;
-padding: 10px;
-height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    height: 400px;
 }
 
 .div-texto {
@@ -66,9 +66,39 @@ height: 400px;
 }
 
 .div-projetos {
-height: 600px;
-display: grid;
-grid-template-columns: auto ;
-justify-content: center;
-align-items: center;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-stack {
+    height: 200px;
+}
+
+.ul-stacks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.li-HTML {
+    background-color: rgb(241, 77, 12); 
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.li-CSS{
+    background-color: rgb(12, 157, 241);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.li-JavaScript{
+    background-color: rgb(245, 241, 6);
+    padding: 10px;
+    border-radius: 10px;
 }

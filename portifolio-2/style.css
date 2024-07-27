@@ -63,13 +63,19 @@ footer {
     height: 400px;
     font-size: 20px;
     border-radius: 10px;
+
 }
 
 .div-projetos {
-    display: grid;
-    grid-template-columns: auto;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    
+}
+
+.div-projetos-1 {
+    width: 50%;
+    font-size: 20px;
 }
 
 .img-stack {
@@ -83,22 +89,52 @@ footer {
     list-style: none;
     gap: 30px;
     margin-bottom: 40px;
+    margin-top: 20px;
+   
 }
 
 .li-HTML {
-    background-color: rgb(241, 77, 12); 
+    background-color: rgb(241, 77, 12);
     padding: 10px;
     border-radius: 10px;
+    
 }
 
-.li-CSS{
+.li-CSS {
     background-color: rgb(12, 157, 241);
     padding: 10px;
     border-radius: 10px;
 }
 
-.li-JavaScript{
+.li-JavaScript {
     background-color: rgb(245, 241, 6);
     padding: 10px;
     border-radius: 10px;
 }
+
+.li-H {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.li-C {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.li-J {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-projetos-2 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 200px;
+}
+
